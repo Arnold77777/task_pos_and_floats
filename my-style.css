@@ -1,0 +1,162 @@
+body {
+	height: 2000px;
+	font-family: 'PT Sans', sans-serif;
+	color: #333333;
+}
+
+
+main {
+	position: relative;
+	margin: 200px auto;
+	width: 580px;
+	height: auto;
+}
+
+
+.first-block {
+	width: 520px;
+	height: 740px;
+	border: 2px solid #000000;
+	background-color: #EBEBEB;
+	position: absolute;
+	z-index: 3;
+}
+
+.second-block {
+	width: 520px;
+	height: 740px;
+	border: 2px solid #000000;
+	background-color: #CCCCCC;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+}
+
+.third-block {
+	width: 520px;
+	height: 740px;
+	border: 2px solid #000000;
+	background-color: #ACACAC;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	z-index: 1;
+}
+
+.sticker-peach {
+	width: 110px;
+	height: 30px;
+	border: 2px solid #000000;
+	background-color: #F68E56;
+	position: absolute;
+	top: 40px;
+ 	right: -85px;
+ 	border-radius: 0 10px 10px 0;
+}
+
+.sticker-green {
+	width: 110px;
+	height: 30px;
+	border: 2px solid #000000;
+	background-color: #39B54A;
+	position: absolute;
+	top: 42px;
+ 	right: -50px;
+ 	border-radius: 0 10px 10px 0;
+}
+
+.sticker-blue {
+	width: 110px;
+	height: 30px;
+	border: 2px solid #000000;
+	background-color: #00AEEF;
+	position: absolute;
+	top: 44px;
+ 	right: -15px;
+ 	border-radius: 0 10px 10px 0;
+}
+
+
+h1 {
+	margin: 0 0;
+	font-size: 22px;
+	padding-top: 38px;
+	padding-left: 30px;
+}
+
+h3 {
+	font-size: 18px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+h6 {
+	clear: both;
+	padding: 25px;
+	text-align: center;
+	font-size: 8px;
+}
+
+.img-cup {
+	margin: 12px 20px 12px 0;
+	float: left;
+	padding-left: 30px;
+}
+
+.img-sheet {
+	float: right;
+	padding-right: 30px;
+}
+
+.img-joke-ninja {
+	float: left;
+	padding-left: 30px;
+	margin-bottom: 15px;
+	
+}
+
+.img-joke-titanik {
+	float: right;
+	padding-right: 30px;
+	margin-bottom: 15px;
+}
+
+.img-joke-table {
+	float: left;
+	padding-left: 30px;
+}
+
+.img-joke-bermuda {
+	float: right;
+	padding-right: 30px;
+}
+
+.first-block > p {
+	margin: 10px 0;
+	font-size: 14px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+aside {
+	width: 85px;
+	height: 70px;
+	position: fixed;
+	top: 80%;
+ 	right: 0%;
+	background-color: #FBAF5D;
+	border: 1px solid #000000;
+	z-index: 10;
+}
+
+aside > p {
+	text-align: center;
+	margin-top: 5px;
+}
+
+aside > img {
+	display: block;
+	margin: -5px auto 0 auto;
+	
+}
